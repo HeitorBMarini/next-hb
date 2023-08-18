@@ -9,7 +9,7 @@ export default function NavBar({ active }) {
             <ul className="flex gap-60 items-center">
                 <li>
                     <Link href="/">
-                        <h1 className="text-2xl text-slate-50 text-red-400">
+                        <h1 className="text-2xl text-slate-50 text-red-400 font-bold">
                             Projeto HB
                         </h1>
                     </Link>
