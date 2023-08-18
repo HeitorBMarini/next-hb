@@ -1,10 +1,14 @@
 import NavBar from "../app/components/NavBar";
-import Footer from "./components/Footer";
+import Footer from "../app/components/Footer";
 
 export default function Home() {
   return (
-
-  <NavBar />
-  
-  )
+    <div>
+      <NavBar />
+      <main>
+        
+      </main>
+      <Footer />
+    </div>
+  );
 }

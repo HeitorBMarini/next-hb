@@ -6,7 +6,7 @@ export default function Categorias() {
     <>
       <NavBar active={"categorias"} />
 
-      <main className="bg-slate-900 m-20 p-8">
+      <main className="bg-slate-900 m-20 p-8 min-h-">
         <h2>Categorias</h2>
       </main>
        
