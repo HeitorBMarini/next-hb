@@ -1,4 +1,5 @@
 import NavBar from "../components/NavBar"
+import Footer from "../components/Footer"
 
 export default function Despesas() {
   return (
@@ -8,6 +9,13 @@ export default function Despesas() {
       <main className="bg-slate-900 m-20 p-8">
         <h2>Despesas</h2>
       </main>
+
+      
+
+      <Footer active={"despesas"} />
+
+      
+     
     </>
   )
 }

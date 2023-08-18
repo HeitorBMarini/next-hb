@@ -1,4 +1,5 @@
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 export default function Contas() {
   return (
@@ -8,6 +9,11 @@ export default function Contas() {
       <main className="bg-slate-900 m-20 p-8">
         <h2>Contas</h2>
       </main>
+
+
+
+      <Footer active={"contas"} />
+      
     </>
   )
 }

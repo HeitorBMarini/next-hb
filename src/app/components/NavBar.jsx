@@ -9,7 +9,7 @@ export default function NavBar({ active }) {
             <ul className="flex gap-60 items-center">
                 <li>
                     <Link href="/">
-                        <h1 className="text-2xl text-slate-50 text-red-400 font-bold">
+                        <h1 className="text-2xl text-slate-50 text-red-400 font-bold py-18 flex">
                             Projeto HB
                         </h1>
                     </Link>
@@ -36,6 +36,9 @@ export default function NavBar({ active }) {
                 <img src="https://i.pravatar.cc/100" alt="avatar do usuário" />
             </div>
 
+            
         </nav>
+            
+        
     )
 }
