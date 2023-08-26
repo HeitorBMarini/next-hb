@@ -1,5 +1,5 @@
 import NavBar from "../app/components/NavBar";
-import Footer from "../app/components/Footer";
+import Footer from "./components/DropMenu";
 
 export default function Home() {
   return (

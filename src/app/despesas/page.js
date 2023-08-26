@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar"
-import Footer from "../components/Footer"
+import Footer from "../components/DropMenu"
 
 export default function Despesas() {
   return (

@@ -1,8 +1,5 @@
 import Link from "next/link";
 
-
-
-
 export default function NavBar({ active }) {
     return (
         <nav className="flex justify-between items-center bg-slate-900 px-6 py-4">
