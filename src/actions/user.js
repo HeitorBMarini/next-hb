@@ -20,11 +20,11 @@ export async function apiLogin(credenciais){
     
     const json = await resp.json()
 
-    cookies().set("next-hb_token", json.token, {
+    cookies().set("meujulius_token", json.token, {
         maxAge: 60 * 60 * 24 * 2 //2 dias
     })
 }
 
 export async function apiLogout(){
-    cookies().delete("next-hb_token")
+    cookies().delete("meujulius_token")
 }
