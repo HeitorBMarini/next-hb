@@ -26,7 +26,7 @@ export default function Login() {
                     className='h-full w-full object-cover' />
             </aside>
             <main className='flex flex-col items-center justify-center h-screen w-full'>
-                <h1 className='text-5xl font-bold'><H-B></H-B></h1>
+                <h1 className='text-5xl font-bold'>Hb</h1>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <TextInput register={register} name="email" label="e-mail" />
                     <TextInput register={register} name="senha" label="senha" type="password" />
